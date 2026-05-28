@@ -88,8 +88,8 @@ export default function Navbar() {
                 href={item.href}
                 className={cx(
                   "rounded-full px-3 py-2 text-sm transition",
-                  active === item.href
-                    ? "bg-navy-950 text-white"
+                    active === item.href
+                    ? "bg-navy-950 text-black dark:text-black"
                     : "text-navy-900 hover:bg-white/70 dark:text-navy-50 dark:hover:bg-navy-900/60"
                 )}
               >
@@ -127,7 +127,7 @@ export default function Navbar() {
                   className={cx(
                     "rounded-xl px-3 py-3 text-sm transition",
                     active === item.href
-                      ? "bg-navy-950 text-white"
+                      ? "bg-navy-950 text-black dark:text-black"
                       : "text-navy-900 hover:bg-white/70 dark:text-navy-50 dark:hover:bg-navy-900/60"
                   )}
                   onClick={() => setOpen(false)}
