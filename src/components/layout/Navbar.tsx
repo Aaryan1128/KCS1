@@ -71,7 +71,8 @@ export default function Navbar() {
             </span>
             <span className="leading-tight">
               <span className="block text-sm font-semibold text-navy-950 dark:text-navy-50">
-                Shinde & Associates
+                KC Shinde & Associates
+
               </span>
               <span className="block text-xs text-navy-600 dark:text-navy-200">
                 Chartered Accountants
