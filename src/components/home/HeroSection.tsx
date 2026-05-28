@@ -109,11 +109,11 @@ export default function HeroSection() {
                     <div className="relative h-24 w-24">
                       <div className="absolute inset-0 rounded-full border border-gold-500/40 bg-gold-500/15 shadow-[0_0_50px_rgba(212,175,55,0.25)]" />
                       <Image
-                        src="/CALogo.jpeg"
+                        src="/CALogo.jpg"
                         alt="Chartered Accountant logo"
                         width={96}
                         height={96}
-                        className="absolute inset-0 h-full w-full object-cover opacity-95"
+                        className="absolute inset-0 h-full w-full object-contain opacity-95"
                         priority
                       />
 

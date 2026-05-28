@@ -62,7 +62,7 @@ export default function Navbar() {
           >
             <span className="relative inline-flex h-10 w-10 items-center justify-center rounded-full bg-navy-950 shadow-gold">
               <Image
-                src="/CALogo.jpeg"
+                src="/CALogo.jpg"
                 alt="Chartered Accountant logo"
                 width={40}
                 height={40}
@@ -72,6 +72,7 @@ export default function Navbar() {
             <span className="leading-tight">
               <span className="block text-sm font-semibold text-navy-950 dark:text-navy-50">
                 KC Shinde & Associates
+
 
               </span>
               <span className="block text-xs text-navy-600 dark:text-navy-200">
