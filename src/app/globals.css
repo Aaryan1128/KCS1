@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --kcs-navy: #0b1b3a;
+  --kcs-gold: #d4af37;
+  --kcs-gold-2: #f6d98a;
+}
+
+/* Tailwind uses .dark class */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, -apple-system,
+    Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Subtle selection */
+::selection {
+  background: rgba(212, 175, 55, 0.25);
+}
+
