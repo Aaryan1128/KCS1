@@ -42,10 +42,10 @@ export default function HomePage() {
                   <div className="text-xs font-semibold uppercase tracking-widest text-gold-300">
                     Ready to get started?
                   </div>
-                  <h2 className="mt-3 text-3xl font-semibold tracking-tight text-white">
+                  <h2 className="mt-3 text-3xl font-semibold tracking-tight text-black">
                     Contact KC Shinde & Associates
                   </h2>
-                  <p className="mt-3 max-w-2xl text-sm leading-7 text-white/75">
+                  <p className="mt-3 max-w-2xl text-sm leading-7 text-black/75">
                     Share your requirement. We’ll respond with the next steps for
                     taxation and business consulting.
                   </p>
