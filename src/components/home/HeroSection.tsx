@@ -84,11 +84,12 @@ export default function HeroSection() {
                   <div className="rounded-2xl border border-white/15 bg-white/10 p-4">
                     <div className="flex items-center justify-between gap-4">
                       <div>
-                    <div className="text-sm font-semibold text-black/90">
+                        <div className="text-sm font-semibold text-black/90">
                           Compliance Snapshot
                         </div>
-                        <div className="mt-1 text-xs text-black/70">Tax • Documentation • Deadlines</div>
-
+                        <div className="mt-1 text-xs text-black/70">
+                          Tax • Documentation • Deadlines
+                        </div>
                       </div>
                       <div className="rounded-full bg-gold-500/20 px-3 py-1 text-xs font-semibold text-gold-200">
                         Premium
@@ -99,10 +100,10 @@ export default function HeroSection() {
 
                   <div className="mt-4 flex items-end justify-between">
                     <div>
-                      <div className="text-xs font-semibold uppercase tracking-widest text-white/70">
+                      <div className="text-xs font-semibold uppercase tracking-widest text-black/70">
                         Built for clarity
                       </div>
-                      <div className="mt-2 text-2xl font-semibold text-white">
+                      <div className="mt-2 text-2xl font-semibold text-black">
                         KC Shinde & Associates
                       </div>
                     </div>
