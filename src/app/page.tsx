@@ -36,7 +36,7 @@ export default function HomePage() {
 
         <section className="py-16">
           <div className="mx-auto w-[min(1200px,100%)] px-4">
-            <div className="rounded-[2rem] border border-white/25 bg-gradient-to-br from-navy-950 via-navy-950 to-navy-800 px-6 py-10 shadow-glass backdrop-blur-md">
+            <div className="rounded-[2rem] border border-white/25 bg-gradient-to-br from-navy-950 via-navy-950 to-navy-800 px-6 py-10 shadow-glass backdrop-blur-md text-black">
               <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
                 <div>
                   <div className="text-xs font-semibold uppercase tracking-widest text-gold-300">
@@ -62,7 +62,7 @@ export default function HomePage() {
                     href="https://wa.me/919511630795"
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/10 px-6 py-3 text-sm font-semibold text-white backdrop-blur-md transition hover:bg-white/15 focus:outline-none focus:ring-4 focus:ring-gold-500/30"
+                    className="inline-flex items-center justify-center rounded-full border border-black/20 bg-white/10 px-6 py-3 text-sm font-semibold text-black !text-black [&_*]:text-black backdrop-blur-md transition hover:bg-white/15 focus:outline-none focus:ring-4 focus:ring-gold-500/30"
                   >
                     WhatsApp Us
                   </a>
