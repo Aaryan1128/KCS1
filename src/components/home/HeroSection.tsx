@@ -84,10 +84,10 @@ export default function HeroSection() {
                   <div className="rounded-2xl border border-white/15 bg-white/10 p-4">
                     <div className="flex items-center justify-between gap-4">
                       <div>
-                        <div className="text-sm font-semibold text-white/90">
+                    <div className="text-sm font-semibold text-black/90">
                           Compliance Snapshot
                         </div>
-                        <div className="mt-1 text-xs text-white/70">Tax • Documentation • Deadlines</div>
+                        <div className="mt-1 text-xs text-black/70">Tax • Documentation • Deadlines</div>
 
                       </div>
                       <div className="rounded-full bg-gold-500/20 px-3 py-1 text-xs font-semibold text-gold-200">
