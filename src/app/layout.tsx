@@ -80,7 +80,7 @@ export default function RootLayout({
 
 
         <script
-          // eslint-disable-next-line react/no-danger
+           
           dangerouslySetInnerHTML={{
             __html: `
               (function(){

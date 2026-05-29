@@ -1,12 +1,4 @@
-# TODO
-
-- [x] Remove GST, Tax Filing, Audit & Assurance, and ROC compliance from homepage copy and metadata.
-- [x] Update HeroSection: remove related stats + snapshot text; replace with allowed compliance messaging.
-- [x] Update ServicesOverview: remove service cards for GST, Audit & Assurance, ROC Compliance.
-- [x] Update TrustBadges: remove related badges; replace with allowed messaging.
-- [x] Update FaqPreview: remove GST + ROC-related FAQ items; keep remaining.
-
-- [x] Run lint/build checks.
-
-
-
+- [ ] Remove “WhatsApp Us” CTA link from home page (`src/app/page.tsx`)
+- [ ] Remove “WhatsApp Us” CTA link from home hero button component (`src/components/common/CTAButtons.tsx`)
+- [ ] Remove “Or call +91 9511630795” from home hero section (`src/components/home/HeroSection.tsx`)
+- [ ] Verify build (optional): run `npm run build` and ensure no TS/ESLint errors

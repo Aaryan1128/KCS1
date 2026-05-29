@@ -1,8 +1,5 @@
 import Image from "next/image";
 import CTAButtons from "@/components/common/CTAButtons";
-import AnimatedCounter from "@/components/common/AnimatedCounter";
-
-const phone = "+91 9511630795";
 
 export default function HeroSection() {
   return (
@@ -15,11 +12,10 @@ export default function HeroSection() {
       <div className="mx-auto w-[min(1200px,100%)] px-4 pb-16">
         <div className="grid items-center gap-10 lg:grid-cols-2">
           <div>
-            <div className="">
+            <div>
               <div className="inline-flex items-center gap-2 rounded-full border border-gold-500/35 bg-white/60 px-4 py-2 text-xs font-semibold text-navy-950 shadow-glass backdrop-blur-md">
                 <span className="h-2 w-2 rounded-full bg-gold-500" />
                 Bringing Value Through Expertise
-
               </div>
 
               <h1 className="mt-5 text-4xl font-semibold tracking-tight text-navy-950 sm:text-5xl">
@@ -27,27 +23,16 @@ export default function HeroSection() {
               </h1>
 
               <p className="mt-4 max-w-xl text-base leading-relaxed text-navy-600 dark:text-navy-200 sm:text-lg">
-                KC Shinde & Associates helps you stay compliant with{' '}
+                KC Shinde & Associates helps you stay compliant with{" "}
                 <span className="font-medium text-navy-950 dark:text-navy-50">
                   taxation and compliance
-                </span>{' '}
+                </span>{" "}
                 — with clear advice and timely filings.
-
               </p>
 
               <div className="mt-7">
                 <CTAButtons />
-                <div className="mt-3 text-xs text-navy-600 dark:text-navy-200">
-                  Or call{' '}
-                  <a
-                    className="text-gold-600 underline underline-offset-4"
-                    href={`tel:${phone.replace(/\s+/g, "")}`}
-                  >
-                    {phone}
-                  </a>
-                </div>
               </div>
-
             </div>
           </div>
 
@@ -74,14 +59,31 @@ export default function HeroSection() {
                       strokeOpacity="0.35"
                       strokeWidth="3"
                     />
-                    <circle cx="120" cy="140" r="10" fill="#d4af37" fillOpacity="0.65" />
-                    <circle cx="210" cy="110" r="6" fill="#d4af37" fillOpacity="0.45" />
-                    <circle cx="420" cy="120" r="8" fill="#d4af37" fillOpacity="0.5" />
+                    <circle
+                      cx="120"
+                      cy="140"
+                      r="10"
+                      fill="#d4af37"
+                      fillOpacity="0.65"
+                    />
+                    <circle
+                      cx="210"
+                      cy="110"
+                      r="6"
+                      fill="#d4af37"
+                      fillOpacity="0.45"
+                    />
+                    <circle
+                      cx="420"
+                      cy="120"
+                      r="8"
+                      fill="#d4af37"
+                      fillOpacity="0.5"
+                    />
                   </svg>
                 </div>
 
                 <div className="absolute inset-0 p-6">
-
                   <div className="mt-4 flex items-end justify-between">
                     <div>
                       <div className="text-xs font-semibold uppercase tracking-widest text-black/70">
@@ -91,6 +93,7 @@ export default function HeroSection() {
                         KC Shinde & Associates
                       </div>
                     </div>
+
                     <div className="relative h-24 w-24">
                       <div className="absolute inset-0 rounded-full border border-gold-500/40 bg-gold-500/15 shadow-[0_0_50px_rgba(212,175,55,0.25)]" />
                       <Image

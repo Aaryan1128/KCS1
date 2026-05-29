@@ -32,10 +32,11 @@ const values = [
 
 const team = [
   {
-    name: "CA KC Shinde",
     role: "Founder & Partner",
     focus: "Taxation • GST • Audit & Assurance",
   },
+
+
   {
     name: "CA Associate",
     role: "Senior Consultant",
@@ -167,20 +168,21 @@ export default function AboutPage() {
           <div className="py-10">
             <SectionHeading
               eyebrow="Founder & Partner"
-              title="CA KC Shinde"
+              title="CA Chetan Shinde"
+
               description="Leadership focused on compliance strategy, audit-readiness, and clarity-driven advice."
             />
 
             <div className="mt-8 grid gap-6 lg:grid-cols-3">
-              <GlowCard className="lg:col-span-2">
+<GlowCard className="lg:col-span-2">
                 <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
-                  <div className="h-16 w-16 rounded-2xl bg-gradient-to-br from-gold-500/25 to-navy-500/10 border border-gold-500/30 shadow-glass" />
                   <div>
+
                     <div className="text-sm font-semibold uppercase tracking-widest text-gold-600 dark:text-gold-300">
                       Founder
                     </div>
                     <div className="mt-1 text-2xl font-semibold text-navy-950 dark:text-navy-50">
-                      CA KC Shinde
+                      Chetan Shinde
                     </div>
                     <div className="mt-1 text-sm text-navy-600 dark:text-navy-200">
                       Taxation • GST • Audit & Assurance • ROC Compliance
@@ -188,7 +190,7 @@ export default function AboutPage() {
                   </div>
                 </div>
                 <p className="mt-6 text-sm leading-relaxed text-navy-600 dark:text-navy-200">
-                  With a strong compliance-first approach, CA KC Shinde guides
+                  With a strong compliance-first approach, Chetan Shinde guides
                   clients through tax planning, GST filings, audit readiness,
                   and corporate compliance — ensuring decisions are supported
                   by accurate documentation.
@@ -206,32 +208,7 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="py-10">
-            <SectionHeading
-              eyebrow="Journey"
-              title="A timeline of trust & capability"
-            />
-            <div className="mt-8 space-y-4">
-              {timeline.map((t) => (
-                <GlowCard key={t.year}>
-                  <div className="flex items-start justify-between gap-4">
-                    <div>
-                      <div className="text-xs font-semibold uppercase tracking-widest text-gold-600 dark:text-gold-300">
-                        {t.year}
-                      </div>
-                      <div className="mt-2 text-lg font-semibold text-navy-950 dark:text-navy-50">
-                        {t.title}
-                      </div>
-                      <div className="mt-2 text-sm leading-relaxed text-navy-600 dark:text-navy-200">
-                        {t.desc}
-                      </div>
-                    </div>
-                    <div className="hidden h-10 w-10 rounded-full border border-navy-200/60 bg-white/60 dark:border-navy-800/60 dark:bg-navy-900/30 md:block" />
-                  </div>
-                </GlowCard>
-              ))}
-            </div>
-          </div>
+
 
           <div className="py-10 pb-24">
             <SectionHeading
@@ -241,9 +218,9 @@ export default function AboutPage() {
             <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {team.map((m) => (
                 <GlowCard key={m.name}>
-                  <div className="flex items-center gap-4">
-                    <div className="h-12 w-12 rounded-2xl bg-gradient-to-br from-gold-500/25 to-navy-500/10 border border-gold-500/30" />
+<div className="flex items-center gap-4">
                     <div>
+
                       <div className="text-sm font-semibold text-navy-950 dark:text-navy-50">
                         {m.name}
                       </div>
